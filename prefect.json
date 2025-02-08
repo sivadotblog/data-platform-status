@@ -1,0 +1,112 @@
+{
+    "result": {
+        "status_overall": {
+            "updated": "2025-01-21T15:38:35.554Z",
+            "status": "Operational",
+            "status_code": 100
+        },
+        "status": [
+            {
+                "id": "62e16fb58c65fa05a80be9e6",
+                "name": "Cloud Orchestration",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-18T23:07:32.773Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-18T23:07:32.773Z"
+            },
+            {
+                "id": "663e7e4d8d62515ebc2eb516",
+                "name": "Cloud Automations",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-21T15:38:35.546Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-21T15:38:35.546Z"
+            },
+            {
+                "id": "663e7ead5ab6bd5eba210910",
+                "name": "Cloud Events/Logs",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-18T23:07:32.771Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-18T23:07:32.771Z"
+            },
+            {
+                "id": "62e16fc1e9db4b053a11a20e",
+                "name": "Cloud UI",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-18T23:07:32.772Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-18T23:07:32.772Z"
+            },
+            {
+                "id": "645ac4484f86850537638b22",
+                "name": "Cloud IP address",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-18T23:07:32.769Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-18T23:07:32.769Z"
+            },
+            {
+                "id": "678569772abdbf05cd5d21df",
+                "name": "Webhooks and Automations IP Addresses",
+                "status": "Operational",
+                "status_code": 100,
+                "containers": [
+                    {
+                        "id": "62e16fa5a684c8053a3fe3ab",
+                        "name": "Prefect Cloud",
+                        "updated": "2025-01-13T19:28:55.414Z",
+                        "status": "Operational",
+                        "status_code": 100
+                    }
+                ],
+                "updated": "2025-01-13T19:28:55.414Z"
+            }
+        ],
+        "incidents": [],
+        "maintenance": {
+            "active": [],
+            "upcoming": []
+        }
+    }
+}
