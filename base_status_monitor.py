@@ -55,14 +55,16 @@ class BaseStatusMonitor:
         """
         api_url = "api.example.com"
 
-        payload = {
-            "timestamp": datetime.utcnow().isoformat(),
-            "technology": self.technology,
-            "region": region_name,
-            "status": region_data.get("status"),
-            "services": region_data.get("services", {}),
-            "incidents": self.status_report.get("incidents", {}).get(region_name, []),
-        }
+        # payload = {
+        #     "timestamp": datetime.utcnow().isoformat(),
+        #     "technology": self.technology,
+        #     "region": region_name,
+        #     "status": region_data.get("status"),
+        #     "services": region_data.get("services", {}),
+        #     "incidents": self.status_report.get("incidents", {}).get(region_name, []),
+        # }
+        print(region_data)
+        payload = region_data
 
         # Commented out for testing
         """

@@ -8,5 +8,6 @@ setup(
     install_requires=[
         "requests",
         "azure-identity",
+        "databricks-sql-connector",
     ],
 )
